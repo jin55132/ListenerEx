@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Beer</title>
+</head>
+<body>
+<h1 align="center">selection page</h1>
+
+<form method="POST" action="BeerSelect">
+	Select beer characteristics<p>
+	Color:
+	<select name="color" size="1">
+		<option> light
+		<option> amber
+		<option> brown
+		<option> dark
+	</select>
+	
+	<br>
+	<input type=checkbox name=sizes value="12oz"> 12oz <br>
+	<input type=checkbox name=sizes value="16oz"> 16oz <br>
+	<input type=checkbox name=sizes value="22oz"> 22oz <br>	
+	
+	<br><br>
+	
+	<center>
+	<input type="SUBMIT">
+	</center>
+</form>
+
+<br>
+<br>
+<form method="POST" action="ServTest">
+<input type="SUBMIT">
+</form>
+
+<br><br>
+<form method="POST" action="FileTransfer">
+<input type="submit" value="file전송">
+</form>
+
+</body>
+</html>
